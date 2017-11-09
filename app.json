@@ -1,0 +1,6 @@
+{
+  "name": "Data Provider",
+  "description": "Data Provider App",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}

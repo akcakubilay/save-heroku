@@ -1,0 +1,5 @@
+projectKey=echo.mother.app
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/echo.mother.app
+ceTaskId=AV5RKPz-7LEXart7OAnm
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV5RKPz-7LEXart7OAnm

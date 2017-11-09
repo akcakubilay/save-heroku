@@ -7,7 +7,6 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
-.sonar
 
 .DS_Store
 .metadata
@@ -33,5 +32,8 @@ blog/bin/
 **/.idea
 **/.gradle
 
-#Sonarqube files
-**/*.scannerwork
+# Package Files #
+*.jar
+*.war
+*.ear
+
