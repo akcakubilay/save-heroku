@@ -41,8 +41,8 @@ import lombok.extern.slf4j.Slf4j;
 public class TemplateController {
 
 	
-	private static final String INPUT_ZIP_FILE = System.getProperty("user.home")+"\\test.zip";
-    private static final String OUTPUT_FOLDER = System.getProperty("user.home")+"\\herokutest";
+	private static final String INPUT_ZIP_FILE = System.getProperty("user.home")+"/test.zip";
+    private static final String OUTPUT_FOLDER = System.getProperty("user.home")+"/temp";
     
 	@Autowired
 	CreateTemplateService createTemplateService;
@@ -101,7 +101,6 @@ public class TemplateController {
 	    } catch (Exception e){
 	        e.printStackTrace();
 	    }
-
 	}
 	
 	
