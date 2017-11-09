@@ -92,7 +92,7 @@ public class TemplateController {
 	    try {
 	        String filePathToBeServed = "asd";
 	        File fileToDownload = new File(filePathToBeServed);
-	        FileInputStream inputStream = new FileInputStream(OUTPUT_FOLDER+"\\test.txt");
+	        FileInputStream inputStream = new FileInputStream(OUTPUT_FOLDER+"/test.txt");
 	        response.setContentType("application/force-download");
 	        response.setHeader("Content-Disposition", "attachment; filename=test.txt"); 
 	        IOUtils.copy(inputStream, response.getOutputStream());
